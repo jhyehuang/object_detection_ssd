@@ -46,6 +46,12 @@ Example usage:
 import functools
 import os
 import tensorflow as tf
+import sys
+
+file_path = os.path.abspath(__file__)
+package_path = os.path.dirname(file_path)
+package_path = os.path.join(package_path, '..')
+sys.path.append(package_path)
 
 from object_detection import evaluator
 from object_detection.builders import input_reader_builder

@@ -67,6 +67,14 @@ with contents:
  + saved_model (a directory)
 """
 import tensorflow as tf
+import os
+import sys
+
+file_path = os.path.abspath(__file__)
+package_path = os.path.dirname(file_path)
+package_path = os.path.join(package_path, '..')
+sys.path.append(package_path)
+
 from google.protobuf import text_format
 from object_detection import exporter
 from object_detection.protos import pipeline_pb2

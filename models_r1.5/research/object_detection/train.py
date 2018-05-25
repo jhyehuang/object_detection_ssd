@@ -45,6 +45,12 @@ import functools
 import json
 import os
 import tensorflow as tf
+import sys
+
+file_path = os.path.abspath(__file__)
+package_path = os.path.dirname(file_path)
+package_path = os.path.join(package_path, '..')
+sys.path.append(package_path)
 
 from object_detection import trainer
 from object_detection.builders import input_reader_builder

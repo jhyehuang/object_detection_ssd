@@ -13,6 +13,13 @@
 # limitations under the License.
 # ==============================================================================
 
+import os
+import sys
+file_path = os.path.abspath(__file__)
+package_path = os.path.dirname(file_path)
+package_path = os.path.join(package_path, '../../slim')
+sys.path.append(package_path)
+
 """A function to build a DetectionModel from configuration."""
 from object_detection.builders import anchor_generator_builder
 from object_detection.builders import box_coder_builder

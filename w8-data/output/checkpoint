@@ -1,0 +1,6 @@
+model_checkpoint_path: "D:/GitHub/object_detection_ssd/w8-data/output\\model.ckpt-205"
+all_model_checkpoint_paths: "D:/GitHub/object_detection_ssd/w8-data/output\\model.ckpt-99"
+all_model_checkpoint_paths: "D:/GitHub/object_detection_ssd/w8-data/output\\model.ckpt-126"
+all_model_checkpoint_paths: "D:/GitHub/object_detection_ssd/w8-data/output\\model.ckpt-153"
+all_model_checkpoint_paths: "D:/GitHub/object_detection_ssd/w8-data/output\\model.ckpt-179"
+all_model_checkpoint_paths: "D:/GitHub/object_detection_ssd/w8-data/output\\model.ckpt-205"
